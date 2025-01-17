@@ -1,0 +1,282 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(19, 20, 20, 0.4) 0, rgba(18, 18, 19, 0.7) 100%);
+    border: 1px solid rgba(0, 0, 0, .15);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .25);
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff71; 
+}
+
+.main {
+    background-image: url("imgs/bg.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#text-owners a {
+    font-size: 1.8rem;
+}
+
+#text-owners button {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(19, 20, 20, 0.4) 0, rgba(18, 18, 19, 0.7) 100%);
+    border: 1px solid rgba(0, 0, 0, .15);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .25);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 270px;
+}
+
+#text-owners button:hover {
+    background-color: #111111;
+}
+
+.main-content {
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.7rem;
+    margin-bottom: 20px;
+    color: #C02942;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.info-section h1 {
+    color: #ffffffe5;
+    text-align: center;
+}
+
+.info-section {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(19, 20, 20, 0.4) 0, rgba(18, 18, 19, 0.7) 100%);
+    padding: 50px 0; 
+}
+
+.info-box {
+    background: radial-gradient(83% 83% at 50% 50%, rgba(180, 180, 180, 0.158), rgba(120, 120, 120, .05)) !important;
+    transition: background 0.35s ease;
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.3);
+    border-radius: 8px; 
+    padding: 20px;
+    margin-bottom: 20px; 
+    color: #ffffffe5;
+}
+
+.info-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 1rem;
+    background: #C0294223 !important;
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0.0rem 0.0rem 20px 5px #0000009f inset !important;
+    color: #ffffffe5;
+    text-align: center;
+}
+
+#space {
+    margin-top: 57px;
+}
+
+#space2 {
+    margin-top: 64px;
+}
+
+#space3 {
+    margin-top: 24px;
+}
+
+#space4 {
+    margin-top: 63px;
+}
+
+.container h1 {
+    background: #C0294223 !important;
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0.0rem 0.0rem 20px 5px #0000009f inset !important;
+    color: #ffffffe5;
+    text-align: center;
+}
+
+.ownerss-section {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(19, 20, 20, 0.4) 0, rgba(18, 18, 19, 0.7) 100%);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.owners-box, .owners-box2 {
+    background: radial-gradient(83% 83% at 50% 50%, rgba(180, 180, 180, 0.158), rgba(120, 120, 120, .05)) !important;
+    transition: background 0.35s ease;
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.owners-box img,
+.owners-box2 img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.owners-info {
+    padding: 20px 0;
+
+    background: #C0294223 !important;
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0.0rem 0.0rem 20px 5px #0000009f inset !important;
+}
+
+.owners-info h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.owners-info p {
+    font-size: 1rem;
+    color: #ffffffe5;
+    margin-bottom: 15px;
+}
+
+.owners-info button {
+    background: radial-gradient(83% 83% at 50% 50%, rgba(180, 180, 180, 0.158), rgba(120, 120, 120, .05)) !important;
+    transition: background 0.35s ease;
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.owners-info button:hover {
+    background: #C0294223 !important;
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0.0rem 0.0rem 20px 5px #0000009f inset !important;
+}
+
+/* #cena {
+    background-color: rgba(0, 0, 0, 0.37);
+} */
+
+.nav-tabs .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 0;
+    padding: 5px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: #333333;
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+    background-color: #444444;
+}
+
+@media (max-width: 768px) {
+    .main-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .main-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .info-box {
+        margin-bottom: 30px;
+    }
+
+    .ownerss-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .owners-box, .owners-box2 {
+        flex: 1 1 100%;
+        max-width: 90%;
+    }
+
+    .owners-box img,
+    .owners-box2 img {
+        max-width: 100%;
+    }
+}
