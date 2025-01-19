@@ -214,6 +214,13 @@ button:hover, .navbar-nav .nav-link:hover {
     margin-top: 63px;
 }
 
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .main-content h1 {
