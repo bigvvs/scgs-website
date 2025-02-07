@@ -52,6 +52,16 @@ body {
     z-index: 1;
 }
 
+.container2 {
+    z-index: 2;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
 .main-content {
     z-index: 2;
     padding: 20px;
@@ -168,7 +178,99 @@ body {
     transform: scale(1.05);
 }
 
-/* Footer */
+/* test */
+.main-header {
+    background: linear-gradient(45deg, rgba(19, 20, 20, 0.6), rgba(18, 18, 19, 0.8));
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.copy-ip-btn {
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #ff0000;
+}
+
+.wiki-sidebar {
+    background: radial-gradient(circle, rgba(180, 180, 180, 0.15), rgba(120, 120, 120, 0.05));
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.3);
+
+    padding: 15px;
+    width: 250px;
+    min-height: 82vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.wiki-sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.wiki-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wiki-sidebar li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.wiki-sidebar li a:hover, .wiki-sidebar li a.active {
+    background: radial-gradient(circle, rgba(180, 180, 180, 0.15), rgba(120, 120, 120, 0.05));
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.3);
+
+    color: #ffffff;
+}
+
+.wiki-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.wiki-article h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 5px;
+}
+
+.wiki-article p, .wiki-article ol, .wiki-article ul {
+    background: radial-gradient(circle, rgba(180, 180, 180, 0.15), rgba(120, 120, 120, 0.05));
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.3);
+    line-height: 1.6;
+}
+
 footer {
     background: linear-gradient(45deg, rgba(19, 20, 20, 0.6), rgba(18, 18, 19, 0.8));
     border-top: 2px solid rgba(255, 255, 255, 0.1);
@@ -177,7 +279,6 @@ footer {
     padding: 10px 0;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .main-content h1 {
         font-size: 2.5rem;
