@@ -1,10 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const messages = [
-        "Are you ready for this new adventure?",
-        "The roleplay server where the limit is your imagination!",
-        "Come and be part of this New Generation of Roleplay!",
-        "Don't miss the opportunity to make a difference! Join us!",
-        "The best Roleplay experience is just a click away!"
+        "scgs",
+        "rp",
+        "v2",
     ];
 
     function shuffle(array) {
