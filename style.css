@@ -43,6 +43,14 @@ body {
     font-weight: 600;
     padding: 8px 15px;
     transition: color 0.3s, transform 0.3s;
+    background-color: rgba(255, 255, 255, 0.02);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.03) inset;
+    border-radius: 12px;
+    background-image: -moz-linear-gradient( 90deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0) 60%);
+    background-image: -webkit-linear-gradient( 90deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0) 60%);
+    background-image: -ms-linear-gradient( 90deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0) 60%);
+    box-shadow: 0px 2px 0px 0px rgba(29, 26, 23, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .navbar-nav .nav-link:hover {
